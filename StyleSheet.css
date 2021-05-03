@@ -8,7 +8,7 @@ a{
 }
 #container{
     background-color:white;
-    width: 1000px;
+    width: 1020px;
     margin-left :auto;
     margin-right :auto;
 }
@@ -24,17 +24,28 @@ h1,h2,h3{
 
 
 #content{
-    padding:5px;
+    padding: 10px;
 }
 #nav {
     background-color: #3498db;
     color: black;
-    width: 150px;
-    float: left;
-    padding: 10px;
+
 }
 #nav .selected {
-     background-color: teal;
+     background-color:teal;
+     color:white;
+ }
+ #nav a{
+    float: left;
+    color: white;
+    background-color: #3498db;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+ }
+ #nav a:hover{
+     background-color:black;
      color:white;
  }
 #nav ul{
@@ -42,21 +53,10 @@ h1,h2,h3{
     padding:0px;
   
 }
-#nav a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-#nav a:hover{
-    background-color:white;
-    color:#3498db;
-}
 #main{
-    width:800px;
-    float:right;
+    width:700px;
+    padding: 80px 160px 10px 160px
+    
 }
 #footer{
     clear:both;
