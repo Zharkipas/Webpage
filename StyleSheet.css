@@ -33,13 +33,12 @@ h4{
 }
 
 
-#content{
-    padding: 10px;
-}
+
 #nav {
     background-color: #3498db;
-    color: black;
-
+    overflow: hidden;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 #nav .selected {
      background-color:teal;
@@ -65,7 +64,7 @@ h4{
 }
 #main{
     width:700px;
-    padding: 80px 100px 10px 100px
+    padding: 40px 120px 10px 120px
     
 }
 #footer{
@@ -78,6 +77,7 @@ h4{
 .dropdown {
     float: left;
     overflow: hidden;
+    
   }
   
   .dropdown .dropbtn {
@@ -86,7 +86,7 @@ h4{
     outline: none;
     color: white;
     padding: 14px 16px;
-    background-color: #3498db;
+    background-color:#3498db;
     font-family: inherit;
     margin: 0;
   }
